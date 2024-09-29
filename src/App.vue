@@ -82,7 +82,7 @@ export default {
     async searchMovies() {
       if (this.searchTerm) {
         const apiKey = '9f154d6a';
-        const response = await axios.get(`http://www.omdbapi.com/?s=${this.searchTerm}&apikey=${apiKey}`);
+        const response = await axios.get(`https://www.omdbapi.com/?s=${this.searchTerm}&apikey=${apiKey}`);
         this.movies = response.data.Search || [];
 
         // Scroll automatico
@@ -96,7 +96,7 @@ export default {
     },
     async selectMovie(imdbID) {
       const apiKey = '9f154d6a';
-      const response = await axios.get(`http://www.omdbapi.com/?i=${imdbID}&apikey=${apiKey}`);
+      const response = await axios.get(`https://www.omdbapi.com/?i=${imdbID}&apikey=${apiKey}`);
       this.selectedMovie = response.data;
 
       // Scroll automatico
