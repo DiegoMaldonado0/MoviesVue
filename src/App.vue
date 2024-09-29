@@ -154,7 +154,7 @@ export default {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 40px;
+    padding: 20px;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -200,7 +200,7 @@ export default {
     justify-content: center;
     flex-wrap: wrap;
     margin: 20px auto;
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 20px;
   }
 
@@ -273,9 +273,9 @@ export default {
   input[type="text"] {
     position: fixed;
     background-color: #2d2d2d;
-    top: 120px;
+    top: 80px;
     left: 0;
-    padding: 35px;
+    padding: 25px;
     margin: 0;
     border: 0;
     width: 100%;
