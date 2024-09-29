@@ -103,7 +103,7 @@ export default {
       this.$nextTick(() => {
         const detailsSection = document.querySelector('.movie-details');
         window.scrollTo({
-          top: detailsSection.offsetTop - 220,
+          top: detailsSection.offsetTop - 180,
           behavior: 'smooth'
         });
       });
